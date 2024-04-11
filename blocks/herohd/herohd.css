@@ -1,0 +1,52 @@
+.herohd {
+    display: grid;
+    grid-template-columns: 705px 165px 165px 165px;
+    grid-template-rows: 142px;
+    grid-gap: 0px;
+    background-color: rgb(247, 243, 237);
+    border: 7px solid orange;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-top: transparent;
+}
+
+.herohd h2 {
+    font-size: 28px;
+    margin-left: 42px;
+    text-transform: uppercase;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   
+}
+
+.herohd h3 {
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 42px;
+    color: rgb(249, 99, 4);
+}
+
+.herohd h4 {
+    font-size: 16px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 42px;
+}
+
+.herohd :first-child {
+    padding-top: 2px;
+    border: 2px;
+}
+
+.herohd div:nth-child(2) {
+    margin: auto;
+    background-color: white;
+}
+
+  .herohd div:nth-child(3) {
+    margin: auto;
+    background-color: white;
+}
+
+.herohd div:nth-child(4) {
+    margin: auto;
+    background-color: white;
+}
